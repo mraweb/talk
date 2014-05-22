@@ -97,7 +97,7 @@ if($url[1]=="entrevista" && $url[2]!=""){
 
 if($url[0]==""){
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html><!-- COMENTARIO TESTE GIT -->
 <html lang="pt-br">
 <head>
 <meta charset="utf-8" />
