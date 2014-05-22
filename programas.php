@@ -257,10 +257,6 @@ $statusModal = $clientes->getModalCadastro();
 
 // });
 
-$(document).ready(function(){
-    $('#mask2').fadeIn(1000); 
-});
-
 var $sidebar   = $("#modal-cadastro"),
     $window    = $(window),
     offset     = $sidebar.offset(),
@@ -356,7 +352,8 @@ $(".checkEmail").change(function(event) {
 //verifica a validação do modal
 var statusModal = $('#statusModal').val();
 if(statusModal=='inativo' || lerCookie('clientetalksat_cookie')==true){
-    $("#mask2").hide();
+	// alert('não mostrar o mascara preta e modal do form');
+    $("#mask2").hide();//MARCELO NÃO CONSIGO FECHAR A MASCARA PRETA
     $("#modal-cadastro").hide();
 }
 </script>
