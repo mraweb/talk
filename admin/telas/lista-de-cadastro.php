@@ -43,7 +43,7 @@
 	}
 ?>
 <div class="content">
-	<p>LISTA DE CADASTRO - SERVIÇOS</p>
+	<p>LISTA DE CADASTRO - PROGRAMAS</p>
 
 	<ul class="ativo-inativo">
 		<li>

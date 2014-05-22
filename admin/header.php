@@ -56,17 +56,17 @@ else
             </li>
 
             <li>
-                <a href="javascript:void(0);" title="Serviços" <?php if($telas=='servicos'){ echo'class="ativo"';}?>>Serviços</a>
+                <a href="javascript:void(0);" title="Programas" <?php if($telas=='servicos'){ echo'class="ativo"';}?>>Programas</a>
                 <ul class="sub-nav">
                     <li><a href="?telas=lista-de-cadastro" title="Cadastros">Cadastros</a></li>
-                    <li><a href="?telas=servico-sem-audio" title="Novo Serviço Sem Áudio">Novo Serviço Sem Áudio</a></li>
-                    <li><a href="?telas=servico-com-audio" title="Novo Serviço Com Áudio">Novo Serviço Com Áudio</a></li>
+                    <li><a href="?telas=servico-sem-audio" title="Novo Programa Sem Áudio">Novo Programa Sem Áudio</a></li>
+                    <li><a href="?telas=servico-com-audio" title="Novo Programa Com Áudio">Novo Programa Com Áudio</a></li>
                     <li><a href="?telas=nova-categoria-servico" title="Novo Segmento">Novo Segmento</a></li>
                     <li><a href="?telas=lista-de-categorias-de-servico" title="Lista de Segmentos">Lista de Segmentos</a></li>
                     <li><a href="?telas=nova-programacao-servico" title="Novo Programa">Novo Programa</a></li>
                     <li><a href="?telas=lista-programacoes-dos-servicos" title="Lista de Programas">Lista de Programas</a></li>
-                    <li><a href="?telas=servicos" title="Lista de Serviços">Lista de Serviços</a></li>
-                    <li><a href="?telas=ordenar-servicos" title="Ordenar Serviços">Ordenar Serviços</a></li>
+                    <li><a href="?telas=servicos" title="Lista de Programas">Lista de Programa</a></li>
+                    <li><a href="?telas=ordenar-servicos" title="Ordenar Programas">Ordenar Programa</a></li>
                 </ul>
             </li>
             
