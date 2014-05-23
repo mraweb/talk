@@ -110,7 +110,7 @@ class Parceiro extends CriaPaginacao{
 				        <ul>
 				            <li><a href="javascript:void(0);" class="excluirRegistro" id="'.$dados["id"].'"><img src="img/btexcluir.png" /></a></li>
 
-				            <li><a href="javascript:void(0);" id=""><img src="img/bteditar.png" /></a></li>
+				            <li><a href="?telas=novo-parceiro&idAlteracao='.$dados["id"].'&acao=alterar" id=""><img src="img/bteditar.png" /></a></li>
 				        </ul>
 				    </div>
 				';
